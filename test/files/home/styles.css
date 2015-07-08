@@ -56,3 +56,12 @@
   visibility:hidden;
   word-wrap:break-word;
 }
+#u4 {
+  position:absolute;
+  left:20px;
+  top:190px;
+  width:1040px;
+  height:1080px;
+  overflow:hidden;
+  background-image:url('../../resources/images/transparent.gif');
+}
