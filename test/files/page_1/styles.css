@@ -35,20 +35,38 @@
   word-wrap:break-word;
 }
 #u2 {
-  position:absolute;
+  position:fixed;
   left:0px;
   top:0px;
-  width:1080px;
-  height:168px;
 }
-#u2_img {
+#u2_state0 {
+  position:relative;
+  left:0px;
+  top:0px;
+  background-image:none;
+}
+#u2_state0_content {
   position:absolute;
   left:0px;
   top:0px;
-  width:1080px;
-  height:168px;
+  width:1px;
+  height:1px;
 }
 #u3 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1080px;
+  height:168px;
+}
+#u3_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1080px;
+  height:168px;
+}
+#u4 {
   position:absolute;
   left:2px;
   top:76px;
