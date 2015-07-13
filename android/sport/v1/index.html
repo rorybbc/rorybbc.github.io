@@ -9,8 +9,10 @@
 			<meta name="HandheldFriendly" content="True">
 			<meta name="MobileOptimized" content="#width#"> 
 
-			<meta name="viewport" content="width=device-width, initial-scale=0.3333333333">
 			
+			
+			
+			<meta name="viewport" content="width=device-width, minimum-scale=1.00, maximum-scale=1.00, initial-scale=1.00, user-scalable=no, target-densitydpi=device-dpi" /> 
 
 			<meta name="format-detection" content="telephone=no">
 
@@ -44,16 +46,12 @@
 					
 						<script type="text/javascript" src="./libraries/icons/components.js"></script> 
 					
-					<link type="text/css" href="./libraries/material/components.3.00.css" rel="Stylesheet" /> 
-					
-						<script type="text/javascript" src="./libraries/material/components.js"></script> 
-					
 
 				<script type="text/javascript" src="./data/data.js"></script> 
 			
 		<style>
 			.landscape, .landscape .prx-page { min-height: 1080px; }
-			.portrait, .portrait .prx-page { min-height: 1776px; }
+			.portrait, .portrait .prx-page { min-height: 1416px; }
 		</style>
 		
 			<script type="text/javascript">
@@ -73,15 +71,15 @@
 					prx.device = 'default';
 				
 
-				prx.device_library = 'material';
+				prx.device_library = 'icons';
 				prx.devices[prx.device] = {
 						name: prx.device
-						,caption: "Google Nexus 5 Android"
+						,caption: "Userzoom Nexus 5"
 						,defaultOrientation: 'portrait'
 						,portrait_applies: 1 //new
-						,portrait: [1080,1776]
-						,landscape_applies: 1 //new
-						,landscape: [1794,1080]
+						,portrait: [1080,1416]
+						,landscape_applies: 0 //new
+						,landscape: [0,0]
 						,allow_orientation_change: 1 //new
 						,statusbar_skin: 'default' // new
 						,statusbarheightportrait: 0
@@ -90,9 +88,9 @@
 						,navigationbarheightportrait: 0
 						,navigationbarheightlandscape: 0
 
-						,normalportrait: [1080,1776]
-						,normallandscape: [1794,1080]
-						,device_s3bucket: '0d9bc265-c898-46d7-893d-83d1b3f8dac4'
+						,normalportrait: [1080,1416]
+						,normallandscape: [0,0]
+						,device_s3bucket: 'a7db5ef7-d1e4-49cc-bd23-d27ac61e8a7f'
 						,dpr: '3.00'
 
 				}
@@ -106,7 +104,7 @@
 				
 				prx.filename = '00db7ff3-35c4-4ba5-b17d-8a345dde3c3f';
 				prx.ron = '0'; // Reviewers LIVE PREVIEW is ON
-				prx.url.devices = 'https://staticprotoio-proto.netdna-ssl.com/devices';
+				prx.url.devices = 'https://static.proto.io/devices';
 				prx.save = 'false'; 
 
 				prx.statusbar = '0';
@@ -115,7 +113,7 @@
 				prx.navigationbar = '0';
 				prx.navigationbarapplies = '0';
 
-				prx.url.static = 'https://staticprotoio-proto.netdna-ssl.com';
+				prx.url.static = 'https://static.proto.io';
 				prx.vup = '1';
 				
 					prx.v = '0';
@@ -276,7 +274,7 @@
 		
 	</head>
 
-	<body oncontextmenu="return false;" class="player device-cursor-touch" style="overflow: hidden; width: 1080px; height: 1776px;" id="mbd">
+	<body oncontextmenu="return false;" class="player device-cursor-touch" style="overflow: hidden; width: 1080px; height: 1416px;" id="mbd">
 
 		
 		
