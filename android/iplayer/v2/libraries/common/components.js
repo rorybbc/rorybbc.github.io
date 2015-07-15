@@ -1911,7 +1911,7 @@ prx.types.image = {
 	      					return item.imgSrc.name;
 	      				}
 	      				,value: function(item,name) {
-	      					return $.toJSON({
+	      					return JSON.stringify({
 	      						allow: 'image',
 	      						asset: item.imgSrc
 	      					});
@@ -2264,7 +2264,7 @@ prx.types.audio = {
 						return item.audioFileMP3.name;
 					}
 					,value: function(item,name) {
-						return $.toJSON({
+						return JSON.stringify({
 							allow: 'audio',
 							asset: item.audioFileMP3
 						});
@@ -2284,7 +2284,7 @@ prx.types.audio = {
 						return item.audioFileOGG.name;
 					}
 					,value: function(item,name) {
-						return $.toJSON({
+						return JSON.stringify({
 							allow: 'audio',
 							asset: item.audioFileOGG
 						});
@@ -2304,7 +2304,7 @@ prx.types.audio = {
 						return item.audioFileWAV.name;
 					}
 					,value: function(item,name) {
-						return $.toJSON({
+						return JSON.stringify({
 							allow: 'audio',
 							asset: item.audioFileWAV
 						});
@@ -2324,7 +2324,7 @@ prx.types.audio = {
 						return item.audioFileAAC.name;
 					}
 					,value: function(item,name) {
-						return $.toJSON({
+						return JSON.stringify({
 							allow: 'audio',
 							asset: item.audioFileAAC
 						});
@@ -2527,7 +2527,7 @@ prx.types.video = {
 						return item.videoFileMP4.name;
 					}
 					,value: function(item,name) {
-						return $.toJSON({
+						return JSON.stringify({
 							allow: 'video',
 							asset: item.videoFileMP4
 						});
@@ -2550,7 +2550,7 @@ prx.types.video = {
 						return item.videoFileWEBM.name;
 					}
 					,value: function(item,name) {
-						return $.toJSON({
+						return JSON.stringify({
 							allow: 'video',
 							asset: item.videoFileWEBM
 						});
@@ -2573,7 +2573,7 @@ prx.types.video = {
 						return item.videoFileOGG.name;
 					}
 					,value: function(item,name) {
-						return $.toJSON({
+						return JSON.stringify({
 							allow: 'video',
 							asset: item.videoFileOGG
 						});
@@ -2596,7 +2596,7 @@ prx.types.video = {
 						return item.placeholder.name;
 					}
 					,value: function(item,name) {
-						return $.toJSON({
+						return JSON.stringify({
 							allow: 'image',
 							asset: item.placeholder
 						});
@@ -3295,7 +3295,7 @@ prx.types.basic_tabbar = {
 		      					return item.tabs[index].icon.name;
 		      				}
 		      				,value: function(item,name,index) {
-		      					return $.toJSON({
+		      					return JSON.stringify({
 		      						allow: 'image',
 		      						asset: item.tabs[index].icon
 		      					});
@@ -3324,7 +3324,7 @@ prx.types.basic_tabbar = {
 		      					return item.tabs[index].activeicon.name;
 		      				}
 		      				,value: function(item,name,index) {
-		      					return $.toJSON({
+		      					return JSON.stringify({
 		      						allow: 'image',
 		      						asset: item.tabs[index].activeicon
 		      					});
